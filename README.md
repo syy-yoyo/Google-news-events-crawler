@@ -6,10 +6,15 @@ Want to aggregate news articles by events? My repository provides a full pipelin
 
 
 Some explanations:
+
 Some topic urls can be:
+
   Top stories: https://news.google.com/topics/CAAqKggKIiRDQkFTRlFvSUwyMHZNRFZxYUdjU0JXVnVMVWRDR2dKVFJ5Z0FQAQ?hl=en-SG&gl=SG&ceid=SG%3Aen
+  
   Singapore stories: https://news.google.com/topics/CAAqJQgKIh9DQkFTRVFvSUwyMHZNRFowTW5RU0JXVnVMVWRDS0FBUAE?hl=en-SG&gl=SG&ceid=SG%3Aen
+  
   Entertainment stories: https://news.google.com/topics/CAAqKggKIiRDQkFTRlFvSUwyMHZNREpxYW5RU0JXVnVMVWRDR2dKVFJ5Z0FQAQ?hl=en-SG&gl=SG&ceid=SG%3Aen
+  
 The **news events** refer to the "full coverage" web pages, like: https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lSdzcyaERSSDZ6eklqTnRDVXFDZ0FQAQ?hl=en-SG&gl=SG&ceid=SG%3Aen
 
 
