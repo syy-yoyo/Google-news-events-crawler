@@ -5,6 +5,7 @@ import json
 import os
 
 use_proxies = False
+proxy_port = 17890
 
 data_root_path = r'E:\Data\SG_news\raw_data'
 stories_urls_fp = os.path.join(data_root_path, "story_urls.json")
@@ -12,8 +13,8 @@ duplicate_story_urls_fp = os.path.join(data_root_path, "duplicate_story_urls.jso
 
 def visit_google_news_topic(topic_url):
     proxies = {
-        'http': 'http://localhost:17890',
-        'https': 'http://localhost:17890',
+        'http': f'http://localhost:{proxy_port}',
+        'https': f'http://localhost:{proxy_port}'
     }
     print("   search url:",topic_url)
 
